@@ -1,7 +1,8 @@
 Script Name : BackupDolibarrMysql.sh
+
 Author      : dAtUmErA
-Description : Automates backup, gzip compression, logging, and email
-              notifications with file attachments for a Dolibarr MySQL database.
+
+Description : Automates backup, gzip compression, logging, and email notifications with file attachments for a Dolibarr MySQL database.
 
 1. FEATURES
 
