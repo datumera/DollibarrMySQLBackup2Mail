@@ -80,4 +80,4 @@ inside crontab:
     $ chmod +x BackupDolibarrMysql.sh
     $ ./BackupDolibarrMysql.sh
 
-===============================================================================
+
