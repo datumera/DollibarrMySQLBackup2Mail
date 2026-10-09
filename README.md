@@ -1,5 +1,4 @@
 
-===============================================================================
                         DOLIBARR MYSQL BACKUP SCRIPT
 ===============================================================================
 
@@ -8,7 +7,6 @@ Author      : dAtUmErA
 Description : Automates backup, gzip compression, logging, and email
               notifications with file attachments for a Dolibarr MySQL database.
 
-===============================================================================
 1. FEATURES
 ===============================================================================
 
@@ -25,7 +23,6 @@ Description : Automates backup, gzip compression, logging, and email
 * Email Notification    : Uses mutt to send the compressed .sql.gz backup as
                           an email attachment to the administrator.
 
-===============================================================================
 2. PREREQUISITES
 ===============================================================================
 
@@ -42,7 +39,6 @@ Description : Automates backup, gzip compression, logging, and email
     |-- mysql_compressed/
     `-- mysql_data/
 
-===============================================================================
 3. WORKFLOW EXECUTION STEPS
 ===============================================================================
 
@@ -72,7 +68,6 @@ Step 4: Email Delivery (mutt)
 - Includes .sql.gz attachment and body text from configuration file.
 - Exits with code 1 if delivery fails.
 
-===============================================================================
 4. OUTPUT FILES CREATED PER EXECUTION
 ===============================================================================
 
@@ -83,7 +78,7 @@ Path                                                   Description
 /opt/backups/mysql_data/dolibarr_backup_<timestamp>.sql Raw SQL dump file.
 /opt/backups/mysql_compressed/dolibarr_compressed_... Gzipped SQL archive.
 
-===============================================================================
+
 5. USAGE
 ===============================================================================
 
