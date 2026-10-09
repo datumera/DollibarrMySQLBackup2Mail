@@ -1,14 +1,9 @@
-
-                        DOLIBARR MYSQL BACKUP SCRIPT
-===============================================================================
-
 Script Name : BackupDolibarrMysql.sh
 Author      : dAtUmErA
 Description : Automates backup, gzip compression, logging, and email
               notifications with file attachments for a Dolibarr MySQL database.
 
 1. FEATURES
-===============================================================================
 
 * Timestamped Output    : Generates a unique timestamp (YYYYMMDD_HHMMSS) for
                           each execution to name logs, dumps, and compressed
@@ -24,7 +19,6 @@ Description : Automates backup, gzip compression, logging, and email
                           an email attachment to the administrator.
 
 2. PREREQUISITES
-===============================================================================
 
 [A] Required Applications:
     - Bash shell (/bin/bash)
@@ -40,7 +34,6 @@ Description : Automates backup, gzip compression, logging, and email
     `-- mysql_data/
 
 3. WORKFLOW EXECUTION STEPS
-===============================================================================
 
 Step 1: Timestamp Initialization
 --------------------------------
@@ -69,7 +62,6 @@ Step 4: Email Delivery (mutt)
 - Exits with code 1 if delivery fails.
 
 4. OUTPUT FILES CREATED PER EXECUTION
-===============================================================================
 
 Path                                                   Description
 -------------------------------------------------------------------------------
@@ -80,7 +72,6 @@ Path                                                   Description
 
 
 5. USAGE
-===============================================================================
 
 Grant execution permissions and execute the script directly or configure it
 inside crontab:
